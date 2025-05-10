@@ -1,0 +1,127 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+
+/* header styles */
+/* nav styles*/
+ .header-top {
+    background-color: #1863ab;
+    color: white;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+  .contact-item {
+    margin-right: 90px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .contact-item i {
+    color: white;
+  }
+  .navbar-brand img {
+    height: 45px;
+  }
+
+  /* navbar styles */
+.navbar {
+  background-color: white;
+  padding: 10px 0;
+  font-weight: 400;
+}
+
+.navbar-brand img {
+  max-height: 100px;
+  
+
+}
+
+.navbar-brand small {
+  font-size: 12px;
+  line-height: 1;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 600;
+  color: black !important;
+}
+
+.nav-link:hover {
+  color: #dc3545 !important;
+}
+
+.btn-danger {
+  font-weight: bold;
+  padding: 8px 16px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0,0,0,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+/* hero styles */
+ .hero-section {
+  position: relative;
+  width: 100%;
+}
+
+/* Welding & Cutting Hero styles */
+.section-subtitle {
+  color: #e3362c;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.section-text {
+  color: #333;
+  line-height: 1.8;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.read-more {
+  color: #e3362c;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.read-more span {
+  margin-left: 6px;
+}
+
+.image-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.left-images {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 1;
+}
+
+.right-image {
+  flex: 1;
+}
+
+.img-sm {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.img-lg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
